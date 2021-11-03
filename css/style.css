@@ -6,6 +6,8 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
 }
 nav{
     position: relative;
@@ -33,6 +35,7 @@ main>div {
     height: 100vh;
     width: 100%;
     position: relative;
+    scroll-snap-align: start;
     
 }
 .main1{
@@ -56,7 +59,7 @@ h1{
      left: 50%; 
      top: 50%; 
      transform: translate(-50%, -60%); 
-    text-align: center;
+    text-align: center; 
 }
 .main3 div{
     position: absolute;
