@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Mono', monospace , sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 nav{
     position: relative;
 }
 nav div{
-    position: absolute;
-    top: 40px;
-    right: 0;
+    position: fixed;
+    top: 50px;
+    right: 10px;
     z-index: 99;
+}
+nav li{
+    display: inline-block;
 }
 .button{
     background-color: white;
@@ -19,7 +25,8 @@ nav div{
     color: black;
     border-radius: 50%;
     margin: 0 10px;
-    font-size: 900;
+    font-size: 700;
+    text-decoration:none;
 
 }
 main>div {
@@ -44,16 +51,23 @@ h1{
     word-spacing: 20px;
 
 }
-.main1 div,.main2 div,.main3 div{
+.main1 div,.main2 div{
      position: absolute;
      left: 50%; 
      top: 50%; 
-     transform: translate(-50%, -50%); 
+     transform: translate(-50%, -60%); 
     text-align: center;
+}
+.main3 div{
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+   text-align: center;
 }
 .main1 h1, .main2 h1{
     color: yellow;
 }
-.main3 h2 {
+.main3 h1 {
     color: green;
 }
