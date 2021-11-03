@@ -29,8 +29,15 @@ nav li{
     margin: 0 10px;
     font-size: 700;
     text-decoration:none;
+    transition: 1s;
+    
 
 }
+.button:hover{
+ box-shadow: 1px 4px 5px; 
+}
+
+
 main>div {
     height: 100vh;
     width: 100%;
