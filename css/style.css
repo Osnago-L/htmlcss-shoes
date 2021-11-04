@@ -43,6 +43,7 @@ main>div {
     width: 100%;
     position: relative;
     scroll-snap-align: start;
+    overflow: hidden;
     
 }
 .main1{
@@ -66,14 +67,16 @@ h1{
      left: 50%; 
      top: 50%; 
      transform: translate(-50%, -60%); 
-    text-align: center; 
+     text-align: center; 
+     
 }
 .main3 div{
-    position: absolute;
-    left: 50%; 
-    top: 50%; 
-    transform: translate(-50%, -50%); 
-   text-align: center;
+        position: absolute;
+        left: 50%; 
+        top: 50%; 
+        transform: translate(-50%, -50%); 
+     text-align: center;
+     
 }
 .main1 h1, .main2 h1{
     color: yellow;
